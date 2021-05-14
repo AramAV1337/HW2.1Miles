@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         int enominator = 20;
@@ -7,6 +8,6 @@ public class Main {
         int amount = in.nextInt();
         in.close();
         int bonusMiles = amount / enominator; // Рассчет бонусных миль
-        System.out.println("Ваш бонус в милях равен: " +bonusMiles);
+        System.out.println("Ваш бонус в милях равен: " + bonusMiles);
     }
 }
